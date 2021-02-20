@@ -16,6 +16,7 @@ h1 {
     font-size: 50px;
     resize: none;
     user-select: none;
+    transition: all ease 500ms;
 }
 h2 {
     position: relative;
@@ -27,4 +28,13 @@ h2 {
     font-size: 25px;
     resize: none;
     user-select: none;
+    transition: all ease 500ms;
+}
+h1:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+h2:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
 }
