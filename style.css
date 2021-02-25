@@ -16,6 +16,7 @@ h1 {
     font-size: 50px;
     resize: none;
     user-select: none;
+    text-decoration: none;
 }
 h2 {
     position: relative;
@@ -27,4 +28,11 @@ h2 {
     font-size: 25px;
     resize: none;
     user-select: none;
+    text-decoration: none;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: rgb(220, 238, 255);
+    font-size: 20px;
 }
